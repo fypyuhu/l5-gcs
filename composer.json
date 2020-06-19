@@ -1,7 +1,7 @@
 {
     "name": "fypyuhu/l5-gcs",
-    "description": "Laravel 5.5+ Flysystem Google Cloud Storage Service Provider",
-    "keywords": ["laravel", "laravel5", "flysystem", "gcs"],
+    "description": "Laravel 7.0+ Flysystem Google Cloud Storage Service Provider",
+    "keywords": ["laravel", "laravel7", "flysystem", "gcs"],
     "type": "library",
     "require": {
       
@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "mix5003\\GCSProvider\\": "src/"
+            "fypyuhu\\GCSProvider\\": "src/"
         }
     }
 }
