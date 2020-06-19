@@ -1,7 +1,7 @@
 <?php
 
 
-namespace mix5003\GCSProvider;
+namespace fypyuhu\GCSProvider;
 
 
 use CedricZiel\FlysystemGcs\GoogleCloudStorageAdapter;
