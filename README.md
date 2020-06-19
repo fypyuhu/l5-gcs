@@ -1,4 +1,4 @@
-# Google Cloud Storage ServiceProvider for Laravel 5.5+
+# Google Cloud Storage ServiceProvider for Laravel 7.0+
 
 Just Wraps [cedricziel/flysystem-gcs](https://github.com/cedricziel/flysystem-gcs) in a Laravel 5.5+ compatible Service Provider. and add some other functionality that I need.
 
@@ -7,13 +7,13 @@ Just Wraps [cedricziel/flysystem-gcs](https://github.com/cedricziel/flysystem-gc
 * Can add metadata when write object.
 
 ## Installation
-```composer require mix5003/l5-gcs```
+```composer require fypyuhu/l5-gcs```
 
 Register the service provider in `app.php`
 ```php
 'providers' => [
     // ...
-    mix5003\GCSProvider\GoogleCloudStorageServiceProvider::class,
+    fypyuhu\GCSProvider\GoogleCloudStorageServiceProvider::class,
 ]
 ```
 
